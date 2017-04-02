@@ -1,4 +1,5 @@
-require_relative 'body'
+require_relative 'bodies.rb'
+require_relative 'planets.rb'
 
 class Moon < Body
 
@@ -7,6 +8,6 @@ class Moon < Body
     @month = month
     @planet = planet
   end
-  
+
 
 end
