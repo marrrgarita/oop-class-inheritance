@@ -1,4 +1,6 @@
 require_relative 'bodies.rb'
+require_relative 'stars.rb'
+
 
 class System
 
@@ -6,7 +8,7 @@ class System
     @bodies = []
   end
 
-  def add
+  def add(body)
     @bodies << body
   end
 
